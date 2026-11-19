@@ -1,0 +1,79 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+.output
+.vinxi
+.tanstack/**
+.nitro
+*.local
+
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
+
+# Environment files
+.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# New additions
+temp-data/
+config.json
+ROADMAP.md
+SETUP.md
+LLM_PROMPT.md
+LLM_CONTEXT.md
+TODO.md
+
+# Python environment and cache
+.venv/
+**/__pycache__/
+*.pyc
+
+# Local data and logs
+.odyssey/
+repomix-output.xml
+
+# Cloud deployment configuration (keep these)
+!.env.example
+!Procfile
+!vercel.json
+!.vercelignore
+
+# Documentation and temporary files
+Design_TODO.md
+ECOSYSTEM_AUDIT.md
+console_log.md
+.skills-lock.json
+Cloud-Native.md
+
+
+# Chrome Extension (separate deployment)
+extension/
+
+# Generated and skill-related files
+.agents/
+.vercel
+progress_report.md
+BACKEND_IDENTITY_FIX.md
+ODYSSEY_AUDIT_REPORT.md
+API_FIXES.md
+Audit.md

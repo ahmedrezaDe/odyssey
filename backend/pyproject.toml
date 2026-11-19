@@ -1,0 +1,21 @@
+[project]
+name = "odyssey-backend"
+version = "1.0.0"
+description = "Odyssey AI Fleet Commander Backend"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi==0.115.0",
+    "uvicorn[standard]==0.30.6",
+    "pydantic==2.9.2",
+    "python-multipart==0.0.9",
+    "python-dotenv==1.0.0",
+    "supabase",
+    "psycopg2-binary==2.9.9",
+    "gunicorn==21.2.0",
+    "sentry-sdk==1.40.6",
+    "email-validator==2.1.0.post1",
+    "httpx>=0.25.0",
+]
+
+[tool.vercel]
+entrypoint = "api.index:app"

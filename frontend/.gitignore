@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# local env files (but keep .env.local for local dev setup)
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+ntuser*
+*.njsproj
+*.sln
+*.sw?
+
+# Build outputs
+dist
+dist-ssr
+*.local
+
+# Dependencies
+node_modules
